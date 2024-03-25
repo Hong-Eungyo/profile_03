@@ -1,0 +1,50 @@
+/* About */
+.about_content_box {
+    color: var(--color-primary);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    padding-bottom: 2rem;
+}
+.about_img {
+    width: 200px;
+    height: 200px;
+    border-radius: 999px;
+    margin: 0 auto;
+}
+.about_img > img {
+    width: 200px;
+}
+
+.about_content_box > .section_description {
+    margin: 1.3rem 0;
+}
+
+.info-box {
+    width: 80%;
+    max-width: 700px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem 3rem;
+    background: #ddd;
+}
+
+    .info-list {
+        font-family: 'Noto Sans KR', sans-serif;
+        font-size: 1.2rem;
+        text-align: left;
+   
+    }
+
+    .info-list > li {
+        font-size: 1.2rem;
+        display: flex;
+        align-items: center;
+        margin: 1.2rem 0;
+    }
+
+    .info-list > li > span {
+        margin-right: 10px;
+    }

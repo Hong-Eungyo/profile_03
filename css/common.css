@@ -1,0 +1,29 @@
+.section_style {
+    text-align: center;
+    padding: 4rem;
+}
+
+.section_title {
+    display: inline-block;
+    font-size: 3rem;
+    margin: 1.3rem 0;
+    border-bottom: 2px solid var(--color-accent);
+}
+
+.section_description {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.home_content_box > .section_title {
+    border-bottom: 2px solid transparent;
+}
+
+button {
+    background: transparent;
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
